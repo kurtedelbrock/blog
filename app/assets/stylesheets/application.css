@@ -413,5 +413,69 @@ table {
    Application Specific
    ========================================================================= */
 
+html {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	border-top: 10px solid black;
+}
 
+body {
+	margin: 0 auto;
+	margin-bottom: 50px;
+	width: 940px;
+}
 
+/* =========================================================================
+   Header Styles
+   ========================================================================= */
+
+header {
+	margin-bottom: 100px;
+}
+
+header h1 {
+	font-size: 1.5em;
+	color: #ccc;
+	text-transform: lowercase;
+}
+
+/* =========================================================================
+   Article Styles
+   ========================================================================= */
+
+article {
+	margin-bottom: 100px;
+}
+
+article h1 {
+	font-size: 2.5em;
+	color: #333;
+}
+
+article p {
+	color: #555;
+	line-height: 1.5em;
+	font-size: 1.3em;
+}
+
+/* =========================================================================
+   Article List
+   ========================================================================= */
+
+.recent h1 {
+	font-size: 2.0em;
+	color: #ccc;
+	text-transform: lowercase;
+	margin-bottom: 40px;
+}
+
+.recent ul {
+	margin: 0;
+	padding: 0;
+}
+
+.recent li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
